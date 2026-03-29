@@ -3,370 +3,1135 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BEAD STUDIO Privacy Policy</title>
+    <title>BEAD STUDIO - 隐私政策</title>
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
             line-height: 1.6;
-            color: #333;
+            color: #1f2937;
+            background-color: #f9fafb;
+        }
+        
+        .container {
             max-width: 800px;
             margin: 0 auto;
-            padding: 20px;
-            background-color: #f9f9f9;
-        }
-        .container {
+            padding: 2rem;
             background-color: white;
-            padding: 40px;
-            border-radius: 10px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            min-height: 100vh;
         }
-        h1 {
-            color: #2c3e50;
-            border-bottom: 3px solid #3498db;
-            padding-bottom: 10px;
-        }
-        h2 {
-            color: #34495e;
-            margin-top: 30px;
-            border-left: 4px solid #3498db;
-            padding-left: 15px;
-        }
-        h3 {
-            color: #555;
-            margin-top: 20px;
-        }
-        p {
-            margin-bottom: 15px;
-            text-align: justify;
-        }
-        ul {
-            margin-bottom: 15px;
-            padding-left: 20px;
-        }
-        li {
-            margin-bottom: 8px;
-        }
-        strong {
-            color: #2c3e50;
-        }
-        .update-date {
-            color: #7f8c8d;
-            font-style: italic;
-            margin-bottom: 30px;
-        }
-        .contact-info {
-            background-color: #ecf0f1;
-            padding: 15px;
-            border-radius: 5px;
-            margin-top: 20px;
-        }
-        a {
-            color: #3498db;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-        .language-switch {
+        
+        header {
             text-align: center;
-            margin-bottom: 30px;
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid #e5e7eb;
         }
+        
+        h1 {
+            font-size: 2rem;
+            font-weight: 800;
+            color: #111827;
+            margin-bottom: 0.5rem;
+        }
+        
+        .language-switch {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin: 1.5rem 0;
+            flex-wrap: wrap;
+        }
+        
         .lang-btn {
-            background-color: #3498db;
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            margin: 0 5px;
-            border-radius: 5px;
+            padding: 0.5rem 1rem;
+            border: 1px solid #e5e7eb;
+            border-radius: 0.5rem;
+            background-color: white;
             cursor: pointer;
-            font-size: 14px;
-            font-weight: bold;
-            transition: background-color 0.3s;
+            font-size: 0.875rem;
+            font-weight: 500;
+            transition: all 0.2s ease;
         }
+        
         .lang-btn:hover {
-            background-color: #2980b9;
+            background-color: #f3f4f6;
         }
+        
         .lang-btn.active {
-            background-color: #2c3e50;
+            background-color: #4f46e5;
+            color: white;
+            border-color: #4f46e5;
         }
+        
         .lang-content {
             display: none;
         }
+        
         .lang-content.active {
             display: block;
         }
-        hr {
-            margin-top: 40px;
-            border: none;
-            border-top: 1px solid #ddd;
+        
+        section {
+            margin-bottom: 2rem;
         }
-        .version {
+        
+        h2 {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: #111827;
+            margin-bottom: 1rem;
+        }
+        
+        h3 {
+            font-size: 1.125rem;
+            font-weight: 600;
+            color: #111827;
+            margin: 1.5rem 0 0.75rem 0;
+        }
+        
+        p {
+            margin-bottom: 1rem;
+            color: #4b5563;
+        }
+        
+        ul {
+            margin: 1rem 0 1.5rem 1.5rem;
+            color: #4b5563;
+        }
+        
+        li {
+            margin-bottom: 0.5rem;
+        }
+        
+        .contact-box {
+            background-color: #f9fafb;
+            padding: 1.5rem;
+            border-radius: 0.5rem;
+            margin: 1rem 0;
+        }
+        
+        a {
+            color: #4f46e5;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        footer {
+            margin-top: 3rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid #e5e7eb;
             text-align: center;
-            color: #7f8c8d;
-            margin-top: 20px;
+            color: #6b7280;
+            font-size: 0.875rem;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 1rem;
+            }
+            
+            h1 {
+                font-size: 1.5rem;
+            }
+            
+            .language-switch {
+                gap: 0.5rem;
+            }
+            
+            .lang-btn {
+                padding: 0.4rem 0.8rem;
+                font-size: 0.75rem;
+            }
         }
     </style>
 </head>
 <body>
     <div class="container">
+        <header>
+            <h1>BEAD STUDIO</h1>
+            <p>隐私政策 | Privacy Policy</p>
+        </header>
+        
         <div class="language-switch">
             <button class="lang-btn active" onclick="switchLanguage('zh')">中文</button>
             <button class="lang-btn" onclick="switchLanguage('en')">English</button>
+            <button class="lang-btn" onclick="switchLanguage('es')">Español</button>
+            <button class="lang-btn" onclick="switchLanguage('fr')">Français</button>
+            <button class="lang-btn" onclick="switchLanguage('de')">Deutsch</button>
+            <button class="lang-btn" onclick="switchLanguage('ja')">日本語</button>
+            <button class="lang-btn" onclick="switchLanguage('ko')">한국어</button>
         </div>
-
+        
+        <!-- 中文 -->
         <div id="zh-content" class="lang-content active">
-            <h1>BEAD STUDIO应用隐私政策</h1>
-            <p class="update-date"><strong>最后更新日期：2026年3月29日</strong></p>
-
-            <h2>引言</h2>
-            <p>欢迎使用BEAD STUDIO应用（以下简称"本应用"）。我们深知隐私对您的重要性，因此我们致力于保护您的个人信息安全。本隐私政策详细说明了本应用如何收集、使用、存储和保护您的个人信息。</p>
-            <p>使用本应用即表示您同意本隐私政策的条款。如果您不同意本政策的任何部分，请不要使用本应用。</p>
-
-            <h2>一、我们收集的信息</h2>
-
-            <h3>1.1 本地存储数据</h3>
-            <p>本应用是一款单机应用，所有数据处理都在您的设备本地完成，不会上传到任何服务器。我们可能会在您的设备上存储以下信息：</p>
-            <ul>
-                <li><strong>应用设置</strong>：包括网格大小、颜色数量、渲染模式、显示模式等用户偏好设置</li>
-                <li><strong>颜色覆盖设置</strong>：您自定义的颜色覆盖数据</li>
-                <li><strong>处理过程中的临时数据</strong>：图片处理过程中生成的临时文件和数据</li>
-            </ul>
-
-            <h3>1.2 权限使用</h3>
-            <p>为了提供完整的功能，本应用需要访问以下系统权限：</p>
-            <ul>
-                <li><strong>相册访问权限</strong>：用于从相册上传图片以及将导出的作品保存到相册</li>
-                <li><strong>文件系统访问权限</strong>：用于保存和管理导出的作品文件</li>
-            </ul>
-
-            <h3>1.3 我们不收集的信息</h3>
-            <ul>
-                <li><strong>个人身份信息</strong>：我们不会收集您的姓名、邮箱、电话号码等个人身份信息</li>
-                <li><strong>位置信息</strong>：我们不会收集您的地理位置信息</li>
-                <li><strong>设备信息</strong>：我们不会收集设备型号、操作系统版本等设备信息</li>
-                <li><strong>使用行为数据</strong>：我们不会收集您的使用行为、使用频率等数据</li>
-            </ul>
-
-            <h2>二、数据使用</h2>
-            <p>本应用收集和存储的信息仅用于以下目的：</p>
-
-            <h3>2.1 提供应用功能</h3>
-            <ul>
-                <li>保存您的应用设置和偏好，以便下次使用时保持一致性</li>
-                <li>实现图片上传、处理和导出功能</li>
-                <li>支持颜色管理和自定义功能</li>
-            </ul>
-
-            <h3>2.2 改进用户体验</h3>
-            <ul>
-                <li>根据您的设置优化应用性能</li>
-                <li>提供个性化的使用体验</li>
-            </ul>
-
-            <h2>三、数据存储</h2>
-
-            <h3>3.1 本地存储</h3>
-            <p>所有数据均存储在您的设备本地，不会上传到任何服务器或云端。这意味着：</p>
-            <ul>
-                <li>您的数据完全由您控制</li>
-                <li>我们无法访问您的数据</li>
-                <li>数据不会在网络上传输，降低了数据泄露的风险</li>
-            </ul>
-
-            <h3>3.2 数据删除</h3>
-            <p>您可以通过以下方式删除本地存储的数据：</p>
-            <ul>
-                <li>在应用设置中重置应用设置</li>
-                <li>删除应用以清除所有本地存储的数据</li>
-            </ul>
-
-            <h2>四、第三方服务</h2>
-            <p>本应用<strong>不使用任何第三方服务</strong>，包括：</p>
-            <ul>
-                <li>不使用第三方分析工具</li>
-                <li>不使用第三方广告服务</li>
-                <li>不使用第三方云存储服务</li>
-                <li>不与任何第三方共享您的数据</li>
-            </ul>
-
-            <h2>五、数据安全</h2>
-            <p>我们采取以下措施保护您的数据安全：</p>
-            <ul>
-                <li><strong>本地处理</strong>：所有数据处理在本地完成，避免网络传输风险</li>
-                <li><strong>权限最小化</strong>：仅请求必要的系统权限</li>
-                <li><strong>数据隔离</strong>：应用数据与其他应用数据完全隔离</li>
-            </ul>
-
-            <h2>六、儿童隐私</h2>
-            <p>本应用适合所有年龄段的用户使用。我们：</p>
-            <ul>
-                <li>不会故意收集未满18岁儿童的个人信息</li>
-                <li>不会收集任何儿童的个人信息</li>
-                <li>不提供任何可能对儿童有害的内容</li>
-            </ul>
-
-            <h2>七、数据跨境传输</h2>
-            <p>由于本应用的所有数据都存储在您的设备本地，不涉及任何数据跨境传输。</p>
-
-            <h2>八、隐私政策的更新</h2>
-            <p>我们可能会不时更新本隐私政策。更新后的政策将在应用中公布。重大变更时，我们会通过应用内通知的方式告知您。</p>
-            <p>继续使用本应用即表示您接受更新后的隐私政策。</p>
-
-            <h2>九、您的权利</h2>
-            <p>根据适用的数据保护法律，您享有以下权利：</p>
-            <ul>
-                <li><strong>访问权</strong>：您有权了解我们如何处理您的数据</li>
-                <li><strong>删除权</strong>：您有权要求删除您的数据</li>
-                <li><strong>更正权</strong>：您有权更正不准确的数据</li>
-                <li><strong>反对权</strong>：您有权反对某些数据处理活动</li>
-            </ul>
-            <p>由于本应用的数据完全存储在本地，您可以通过删除应用或重置应用设置来行使上述权利。</p>
-
-            <h2>十、联系我们</h2>
-            <p>如果您对本隐私政策有任何疑问、意见或建议，请通过以下方式联系我们：</p>
+            <section>
+                <h2>引言</h2>
+                <p>欢迎使用BEAD STUDIO应用（以下简称"本应用"）。我们深知隐私对您的重要性，因此我们致力于保护您的个人信息安全。本隐私政策详细说明了本应用如何收集、使用、存储和保护您的个人信息。</p>
+                <p>使用本应用即表示您同意本隐私政策的条款。如果您不同意本政策的任何部分，请不要使用本应用。</p>
+            </section>
             
-            <div class="contact-info">
-                <p><strong>电子邮件：</strong><a href="mailto:19821902196@163.com">19821902196@163.com</a></p>
-            </div>
+            <section>
+                <h2>一、我们收集的信息</h2>
+                
+                <h3>1.1 本地存储数据</h3>
+                <p>本应用是一款单机应用，所有数据处理都在您的设备本地完成，不会上传到任何服务器。我们可能会在您的设备上存储以下信息：</p>
+                <ul>
+                    <li>应用设置：包括网格大小、颜色数量、渲染模式、显示模式等用户偏好设置</li>
+                    <li>颜色覆盖设置：您自定义的颜色覆盖数据</li>
+                    <li>处理过程中的临时数据：图片处理过程中生成的临时文件和数据</li>
+                </ul>
+                
+                <h3>1.2 权限使用</h3>
+                <p>为了提供完整的功能，本应用需要访问以下系统权限：</p>
+                <ul>
+                    <li>相册访问权限：用于从相册上传图片以及将导出的作品保存到相册</li>
+                    <li>文件系统访问权限：用于保存和管理导出的作品文件</li>
+                </ul>
+                
+                <h3>1.3 我们不收集的信息</h3>
+                <ul>
+                    <li>个人身份信息：我们不会收集您的姓名、邮箱、电话号码等个人身份信息</li>
+                    <li>位置信息：我们不会收集您的地理位置信息</li>
+                    <li>设备信息：我们不会收集设备型号、操作系统版本等设备信息</li>
+                    <li>使用行为数据：我们不会收集您的使用行为、使用频率等数据</li>
+                </ul>
+            </section>
+            
+            <section>
+                <h2>二、数据使用</h2>
+                <p>本应用收集和存储的信息仅用于以下目的：</p>
+                
+                <h3>2.1 提供应用功能</h3>
+                <ul>
+                    <li>保存您的应用设置和偏好，以便下次使用时保持一致性</li>
+                    <li>实现图片上传、处理和导出功能</li>
+                    <li>支持颜色管理和自定义功能</li>
+                </ul>
+                
+                <h3>2.2 改进用户体验</h3>
+                <ul>
+                    <li>根据您的设置优化应用性能</li>
+                    <li>提供个性化的使用体验</li>
+                </ul>
+            </section>
+            
+            <section>
+                <h2>三、数据存储</h2>
+                
+                <h3>3.1 本地存储</h3>
+                <p>所有数据均存储在您的设备本地，不会上传到任何服务器或云端。这意味着：</p>
+                <ul>
+                    <li>您的数据完全由您控制</li>
+                    <li>我们无法访问您的数据</li>
+                    <li>数据不会在网络上传输，降低了数据泄露的风险</li>
+                </ul>
+                
+                <h3>3.2 数据删除</h3>
+                <p>您可以通过以下方式删除本地存储的数据：</p>
+                <ul>
+                    <li>在应用设置中重置应用设置</li>
+                    <li>删除应用以清除所有本地存储的数据</li>
+                </ul>
+            </section>
+            
+            <section>
+                <h2>四、第三方服务</h2>
+                <p>本应用不使用任何第三方服务，包括：</p>
+                <ul>
+                    <li>不使用第三方分析工具</li>
+                    <li>不使用第三方广告服务</li>
+                    <li>不使用第三方云存储服务</li>
+                    <li>不与任何第三方共享您的数据</li>
+                </ul>
+            </section>
+            
+            <section>
+                <h2>五、数据安全</h2>
+                <ul>
+                    <li>本地处理：所有数据处理在本地完成，避免网络传输风险</li>
+                    <li>权限最小化：仅请求必要的系统权限</li>
+                    <li>数据隔离：应用数据与其他应用数据完全隔离</li>
+                </ul>
+            </section>
+            
+            <section>
+                <h2>六、儿童隐私</h2>
+                <p>本应用适合所有年龄段的用户使用。我们：</p>
+                <ul>
+                    <li>不会故意收集未满18岁儿童的个人信息</li>
+                    <li>不会收集任何儿童的个人信息</li>
+                    <li>不提供任何可能对儿童有害的内容</li>
+                </ul>
+            </section>
+            
+            <section>
+                <h2>七、数据跨境传输</h2>
+                <p>由于本应用的所有数据都存储在您的设备本地，不涉及任何数据跨境传输。</p>
+            </section>
+            
+            <section>
+                <h2>八、隐私政策的更新</h2>
+                <p>我们可能会不时更新本隐私政策。更新后的政策将在应用中公布。重大变更时，我们会通过应用内通知的方式告知您。</p>
+                <p>继续使用本应用即表示您接受更新后的隐私政策。</p>
+            </section>
+            
+            <section>
+                <h2>九、您的权利</h2>
+                <p>根据适用的数据保护法律，您享有以下权利：</p>
+                <ul>
+                    <li>访问权：您有权了解我们如何处理您的数据</li>
+                    <li>删除权：您有权要求删除您的数据</li>
+                    <li>更正权：您有权更正不准确的数据</li>
+                    <li>反对权：您有权反对某些数据处理活动</li>
+                </ul>
+                <p>由于本应用的数据完全存储在本地，您可以通过删除应用或重置应用设置来行使上述权利。</p>
+            </section>
+            
+            <section>
+                <h2>十、联系我们</h2>
+                <p>如果您对本隐私政策有任何疑问、意见或建议，请通过以下方式联系我们：</p>
+                <div class="contact-box">
+                    <p><strong>电子邮件：</strong> <a href="mailto:19821902196@163.com">19821902196@163.com</a></p>
+                </div>
+            </section>
         </div>
-
+        
+        <!-- 英语 -->
         <div id="en-content" class="lang-content">
-            <h1>BEAD STUDIO Privacy Policy</h1>
-            <p class="update-date"><strong>Last Updated: March 29, 2026</strong></p>
-
-            <h2>Introduction</h2>
-            <p>Welcome to BEAD STUDIO (hereinafter referred to as "the App"). We understand the importance of privacy and are committed to protecting your personal information. This Privacy Policy explains in detail how the App collects, uses, stores, and protects your personal information.</p>
-            <p>By using the App, you agree to the terms of this Privacy Policy. If you do not agree to any part of this policy, please do not use the App.</p>
-
-            <h2>1. Information We Collect</h2>
-
-            <h3>1.1 Locally Stored Data</h3>
-            <p>The App is an offline application where all data processing is completed locally on your device and will not be uploaded to any server. We may store the following information on your device:</p>
-            <ul>
-                <li><strong>App Settings</strong>: Including grid size, color count, rendering mode, display mode, and other user preference settings</li>
-                <li><strong>Color Override Settings</strong>: Your custom color override data</li>
-                <li><strong>Temporary Processing Data</strong>: Temporary files and data generated during image processing</li>
-            </ul>
-
-            <h3>1.2 Permission Usage</h3>
-            <p>To provide complete functionality, the App requires access to the following system permissions:</p>
-            <ul>
-                <li><strong>Photo Library Access</strong>: Used to upload images from the photo library and save exported works to the photo library</li>
-                <li><strong>File System Access</strong>: Used to save and manage exported work files</li>
-            </ul>
-
-            <h3>1.3 Information We Do Not Collect</h3>
-            <ul>
-                <li><strong>Personal Identity Information</strong>: We do not collect your name, email, phone number, or other personal identity information</li>
-                <li><strong>Location Information</strong>: We do not collect your geographical location information</li>
-                <li><strong>Device Information</strong>: We do not collect device model, operating system version, or other device information</li>
-                <li><strong>Usage Behavior Data</strong>: We do not collect your usage behavior, usage frequency, or other data</li>
-            </ul>
-
-            <h2>2. Data Usage</h2>
-            <p>The information collected and stored by the App is used only for the following purposes:</p>
-
-            <h3>2.1 Providing App Functionality</h3>
-            <ul>
-                <li>Save your app settings and preferences for consistency on next use</li>
-                <li>Implement image upload, processing, and export functionality</li>
-                <li>Support color management and customization features</li>
-            </ul>
-
-            <h3>2.2 Improving User Experience</h3>
-            <ul>
-                <li>Optimize app performance based on your settings</li>
-                <li>Provide personalized user experience</li>
-            </ul>
-
-            <h2>3. Data Storage</h2>
-
-            <h3>3.1 Local Storage</h3>
-            <p>All data is stored locally on your device and will not be uploaded to any server or cloud. This means:</p>
-            <ul>
-                <li>Your data is completely under your control</li>
-                <li>We cannot access your data</li>
-                <li>Data is not transmitted over the network, reducing the risk of data leakage</li>
-            </ul>
-
-            <h3>3.2 Data Deletion</h3>
-            <p>You can delete locally stored data by:</p>
-            <ul>
-                <li>Resetting app settings in the app settings</li>
-                <li>Deleting the app to clear all locally stored data</li>
-            </ul>
-
-            <h2>4. Third-Party Services</h2>
-            <p>The App <strong>does not use any third-party services</strong>, including:</p>
-            <ul>
-                <li>Does not use third-party analytics tools</li>
-                <li>Does not use third-party advertising services</li>
-                <li>Does not use third-party cloud storage services</li>
-                <li>Does not share your data with any third parties</li>
-            </ul>
-
-            <h2>5. Data Security</h2>
-            <p>We take the following measures to protect your data security:</p>
-            <ul>
-                <li><strong>Local Processing</strong>: All data processing is completed locally, avoiding network transmission risks</li>
-                <li><strong>Minimal Permissions</strong>: Only requests necessary system permissions</li>
-                <li><strong>Data Isolation</strong>: App data is completely isolated from other app data</li>
-            </ul>
-
-            <h2>6. Children's Privacy</h2>
-            <p>The App is suitable for users of all ages. We:</p>
-            <ul>
-                <li>Do not intentionally collect personal information from children under 18</li>
-                <li>Do not collect any personal information from children</li>
-                <li>Do not provide any content that may be harmful to children</li>
-            </ul>
-
-            <h2>7. Cross-Border Data Transfer</h2>
-            <p>Since all data of the App is stored locally on your device, no cross-border data transfer is involved.</p>
-
-            <h2>8. Updates to Privacy Policy</h2>
-            <p>We may update this Privacy Policy from time to time. Updated policies will be announced in the App. For significant changes, we will notify you through in-app notifications.</p>
-            <p>Continued use of the App indicates your acceptance of the updated Privacy Policy.</p>
-
-            <h2>9. Your Rights</h2>
-            <p>Under applicable data protection laws, you have the following rights:</p>
-            <ul>
-                <li><strong>Access Right</strong>: You have the right to know how we process your data</li>
-                <li><strong>Deletion Right</strong>: You have the right to request deletion of your data</li>
-                <li><strong>Correction Right</strong>: You have the right to correct inaccurate data</li>
-                <li><strong>Objection Right</strong>: You have the right to object to certain data processing activities</li>
-            </ul>
-            <p>Since the App's data is completely stored locally, you can exercise the above rights by deleting the App or resetting app settings.</p>
-
-            <h2>10. Contact Us</h2>
-            <p>If you have any questions, comments, or suggestions about this Privacy Policy, please contact us through:</p>
+            <section>
+                <h2>Introduction</h2>
+                <p>Welcome to BEAD STUDIO (hereinafter referred to as "the App"). We understand the importance of privacy and are committed to protecting your personal information. This Privacy Policy explains in detail how the App collects, uses, stores, and protects your personal information.</p>
+                <p>By using the App, you agree to the terms of this Privacy Policy. If you do not agree to any part of this policy, please do not use the App.</p>
+            </section>
             
-            <div class="contact-info">
-                <p><strong>Email:</strong><a href="mailto:19821902196@163.com">19821902196@163.com</a></p>
-            </div>
+            <section>
+                <h2>1. Information We Collect</h2>
+                
+                <h3>1.1 Locally Stored Data</h3>
+                <p>The App is an offline application where all data processing is completed locally on your device and will not be uploaded to any server. We may store the following information on your device:</p>
+                <ul>
+                    <li>App Settings: Including grid size, color count, rendering mode, display mode, and other user preference settings</li>
+                    <li>Color Override Settings: Your custom color override data</li>
+                    <li>Temporary Processing Data: Temporary files and data generated during image processing</li>
+                </ul>
+                
+                <h3>1.2 Permission Usage</h3>
+                <p>To provide complete functionality, the App requires access to the following system permissions:</p>
+                <ul>
+                    <li>Photo Library Access: Used to upload images from photo library and save exported works to photo library</li>
+                    <li>File System Access: Used to save and manage exported work files</li>
+                </ul>
+                
+                <h3>1.3 Information We Do Not Collect</h3>
+                <ul>
+                    <li>Personal Identity Information: We do not collect your name, email, phone number, or other personal identity information</li>
+                    <li>Location Information: We do not collect your geographical location information</li>
+                    <li>Device Information: We do not collect device model, operating system version, or other device information</li>
+                    <li>Usage Behavior Data: We do not collect your usage behavior, usage frequency, or other data</li>
+                </ul>
+            </section>
+            
+            <section>
+                <h2>2. Data Usage</h2>
+                <p>The information collected and stored by the App is used only for the following purposes:</p>
+                
+                <h3>2.1 Providing App Functionality</h3>
+                <ul>
+                    <li>Save your app settings and preferences for consistency on next use</li>
+                    <li>Implement image upload, processing, and export functionality</li>
+                    <li>Support color management and customization features</li>
+                </ul>
+                
+                <h3>2.2 Improving User Experience</h3>
+                <ul>
+                    <li>Optimize app performance based on your settings</li>
+                    <li>Provide personalized user experience</li>
+                </ul>
+            </section>
+            
+            <section>
+                <h2>3. Data Storage</h2>
+                
+                <h3>3.1 Local Storage</h3>
+                <p>All data is stored locally on your device and will not be uploaded to any server or cloud. This means:</p>
+                <ul>
+                    <li>Your data is completely under your control</li>
+                    <li>We cannot access your data</li>
+                    <li>Data is not transmitted over the network, reducing the risk of data leakage</li>
+                </ul>
+                
+                <h3>3.2 Data Deletion</h3>
+                <p>You can delete locally stored data by:</p>
+                <ul>
+                    <li>Resetting app settings in app settings</li>
+                    <li>Deleting the app to clear all locally stored data</li>
+                </ul>
+            </section>
+            
+            <section>
+                <h2>4. Third-Party Services</h2>
+                <p>The App does not use any third-party services, including:</p>
+                <ul>
+                    <li>Does not use third-party analytics tools</li>
+                    <li>Does not use third-party advertising services</li>
+                    <li>Does not use third-party cloud storage services</li>
+                    <li>Does not share your data with any third parties</li>
+                </ul>
+            </section>
+            
+            <section>
+                <h2>5. Data Security</h2>
+                <ul>
+                    <li>Local Processing: All data processing is completed locally, avoiding network transmission risks</li>
+                    <li>Minimal Permissions: Only requests necessary system permissions</li>
+                    <li>Data Isolation: App data is completely isolated from other app data</li>
+                </ul>
+            </section>
+            
+            <section>
+                <h2>6. Children's Privacy</h2>
+                <p>The App is suitable for users of all ages. We:</p>
+                <ul>
+                    <li>Do not intentionally collect personal information from children under 18</li>
+                    <li>Do not collect any personal information from children</li>
+                    <li>Do not provide any content that may be harmful to children</li>
+                </ul>
+            </section>
+            
+            <section>
+                <h2>7. Cross-Border Data Transfer</h2>
+                <p>Since all data of the App is stored locally on your device, no cross-border data transfer is involved.</p>
+            </section>
+            
+            <section>
+                <h2>8. Updates to Privacy Policy</h2>
+                <p>We may update this Privacy Policy from time to time. Updated policies will be announced in the App. For significant changes, we will notify you through in-app notifications.</p>
+                <p>Continued use of the App indicates your acceptance of the updated Privacy Policy.</p>
+            </section>
+            
+            <section>
+                <h2>9. Your Rights</h2>
+                <p>Under applicable data protection laws, you have the following rights:</p>
+                <ul>
+                    <li>Access Right: You have the right to know how we process your data</li>
+                    <li>Deletion Right: You have the right to request deletion of your data</li>
+                    <li>Correction Right: You have the right to correct inaccurate data</li>
+                    <li>Objection Right: You have the right to object to certain data processing activities</li>
+                </ul>
+                <p>Since the App's data is completely stored locally, you can exercise the above rights by deleting the App or resetting app settings.</p>
+            </section>
+            
+            <section>
+                <h2>10. Contact Us</h2>
+                <p>If you have any questions, comments, or suggestions about this Privacy Policy, please contact us through:</p>
+                <div class="contact-box">
+                    <p><strong>Email:</strong> <a href="mailto:19821902196@163.com">19821902196@163.com</a></p>
+                </div>
+            </section>
         </div>
-
-        <hr>
-        <p class="version"><strong>Privacy Policy Version: 1.0</strong></p>
+        
+        <!-- 西班牙语 -->
+        <div id="es-content" class="lang-content">
+            <section>
+                <h2>Introducción</h2>
+                <p>Bienvenido a BEAD STUDIO (en adelante denominada "la Aplicación"). Entendemos la importancia de la privacidad y nos comprometemos a proteger su información personal. Esta Política de Privacidad explica en detalle cómo la Aplicación recopila, usa, almacena y protege su información personal.</p>
+                <p>Al usar la Aplicación, usted acepta los términos de esta Política de Privacidad. Si no está de acuerdo con alguna parte de esta política, por favor no use la Aplicación.</p>
+            </section>
+            
+            <section>
+                <h2>1. Información que Recopilamos</h2>
+                
+                <h3>1.1 Datos Almacenados Localmente</h3>
+                <p>La Aplicación es una aplicación sin conexión donde todo el procesamiento de datos se completa localmente en su dispositivo y no se subirá a ningún servidor. Podemos almacenar la siguiente información en su dispositivo:</p>
+                <ul>
+                    <li>Configuración de la Aplicación: Incluyendo tamaño de cuadrícula, número de colores, modo de renderizado, modo de visualización y otras configuraciones de preferencia del usuario</li>
+                    <li>Configuraciones de Sobrescritura de Color: Sus datos personalizados de sobrescritura de color</li>
+                    <li>Datos Temporales de Procesamiento: Archivos y datos temporales generados durante el procesamiento de imágenes</li>
+                </ul>
+                
+                <h3>1.2 Uso de Permisos</h3>
+                <p>Para proporcionar funcionalidad completa, la Aplicación requiere acceso a los siguientes permisos del sistema:</p>
+                <ul>
+                    <li>Acceso a la Biblioteca de Fotos: Utilizado para cargar imágenes desde la biblioteca de fotos y guardar trabajos exportados en la biblioteca de fotos</li>
+                    <li>Acceso al Sistema de Archivos: Utilizado para guardar y gestionar archivos de trabajos exportados</li>
+                </ul>
+                
+                <h3>1.3 Información que No Recopilamos</h3>
+                <ul>
+                    <li>Información de Identidad Personal: No recopilamos su nombre, correo electrónico, número de teléfono u otra información de identidad personal</li>
+                    <li>Información de Ubicación: No recopilamos información de su ubicación geográfica</li>
+                    <li>Información del Dispositivo: No recopilamos modelo de dispositivo, versión del sistema operativo u otra información del dispositivo</li>
+                    <li>Datos de Comportamiento de Uso: No recopilamos su comportamiento de uso, frecuencia de uso u otros datos</li>
+                </ul>
+            </section>
+            
+            <section>
+                <h2>2. Uso de Datos</h2>
+                <p>La información recopilada y almacenada por la Aplicación se usa únicamente para los siguientes fines:</p>
+                
+                <h3>2.1 Proporcionar Funcionalidad de la Aplicación</h3>
+                <ul>
+                    <li>Guardar su configuración y preferencias de la aplicación para mantener la consistencia en el próximo uso</li>
+                    <li>Implementar funcionalidad de carga, procesamiento y exportación de imágenes</li>
+                    <li>Apoyar funciones de gestión y personalización de color</li>
+                </ul>
+                
+                <h3>2.2 Mejorar la Experiencia del Usuario</h3>
+                <ul>
+                    <li>Optimizar el rendimiento de la aplicación según sus configuraciones</li>
+                    <li>Proporcionar una experiencia de usuario personalizada</li>
+                </ul>
+            </section>
+            
+            <section>
+                <h2>3. Almacenamiento de Datos</h2>
+                
+                <h3>3.1 Almacenamiento Local</h3>
+                <p>Todos los datos se almacenan localmente en su dispositivo y no se subirán a ningún servidor o nube. Esto significa:</p>
+                <ul>
+                    <li>Sus datos están completamente bajo su control</li>
+                    <li>No podemos acceder a sus datos</li>
+                    <li>Los datos no se transmiten por la red, reduciendo el riesgo de filtración de datos</li>
+                </ul>
+                
+                <h3>3.2 Eliminación de Datos</h3>
+                <p>Puede eliminar los datos almacenados localmente mediante:</p>
+                <ul>
+                    <li>Restablecer la configuración de la aplicación en la configuración de la aplicación</li>
+                    <li>Eliminar la aplicación para limpiar todos los datos almacenados localmente</li>
+                </ul>
+            </section>
+            
+            <section>
+                <h2>4. Servicios de Terceros</h2>
+                <p>La Aplicación no usa ningún servicio de terceros, incluyendo:</p>
+                <ul>
+                    <li>No usa herramientas de análisis de terceros</li>
+                    <li>No usa servicios publicitarios de terceros</li>
+                    <li>No usa servicios de almacenamiento en la nube de terceros</li>
+                    <li>No comparte sus datos con terceros</li>
+                </ul>
+            </section>
+            
+            <section>
+                <h2>5. Seguridad de Datos</h2>
+                <ul>
+                    <li>Procesamiento Local: Todo el procesamiento de datos se completa localmente, evitando riesgos de transmisión por red</li>
+                    <li>Permisos Mínimos: Solo solicita permisos del sistema necesarios</li>
+                    <li>Aislamiento de Datos: Los datos de la aplicación están completamente aislados de los datos de otras aplicaciones</li>
+                </ul>
+            </section>
+            
+            <section>
+                <h2>6. Privacidad de los Niños</h2>
+                <p>La Aplicación es adecuada para usuarios de todas las edades. Nosotros:</p>
+                <ul>
+                    <li>No recopilamos intencionalmente información personal de niños menores de 18 años</li>
+                    <li>No recopilamos ninguna información personal de niños</li>
+                    <li>No proporcionamos contenido que pueda ser dañino para los niños</li>
+                </ul>
+            </section>
+            
+            <section>
+                <h2>7. Transferencia de Datos Transfronterizos</h2>
+                <p>Como todos los datos de la Aplicación se almacenan localmente en su dispositivo, no se involucra ninguna transferencia de datos transfronteriza.</p>
+            </section>
+            
+            <section>
+                <h2>8. Actualizaciones de la Política de Privacidad</h2>
+                <p>Podemos actualizar esta Política de Privacidad de vez en cuando. Las políticas actualizadas se anunciarán en la Aplicación. Para cambios significativos, le notificaremos a través de notificaciones dentro de la aplicación.</p>
+                <p>El uso continuado de la Aplicación indica su aceptación de la Política de Privacidad actualizada.</p>
+            </section>
+            
+            <section>
+                <h2>9. Sus Derechos</h2>
+                <p>Según las leyes de protección de datos aplicables, usted tiene los siguientes derechos:</p>
+                <ul>
+                    <li>Derecho de Acceso: Tiene derecho a saber cómo procesamos sus datos</li>
+                    <li>Derecho de Eliminación: Tiene derecho a solicitar la eliminación de sus datos</li>
+                    <li>Derecho de Corrección: Tiene derecho a corregir datos inexactos</li>
+                    <li>Derecho de Objeción: Tiene derecho a objetar ciertas actividades de procesamiento de datos</li>
+                </ul>
+                <p>Como los datos de la Aplicación se almacenan completamente localmente, puede ejercer los derechos anteriores eliminando la Aplicación o restableciendo la configuración de la aplicación.</p>
+            </section>
+            
+            <section>
+                <h2>10. Contáctenos</h2>
+                <p>Si tiene alguna pregunta, comentario o sugerencia sobre esta Política de Privacidad, contáctenos a través de:</p>
+                <div class="contact-box">
+                    <p><strong>Correo Electrónico:</strong> <a href="mailto:19821902196@163.com">19821902196@163.com</a></p>
+                </div>
+            </section>
+        </div>
+        
+        <!-- 法语 -->
+        <div id="fr-content" class="lang-content">
+            <section>
+                <h2>Introduction</h2>
+                <p>Bienvenue sur BEAD STUDIO (ci-après dénommée "l'Application"). Nous comprenons l'importance de la vie privée et nous nous engageons à protéger vos informations personnelles. Cette Politique de Confidentialité explique en détail comment l'Application collecte, utilise, stocke et protège vos informations personnelles.</p>
+                <p>En utilisant l'Application, vous acceptez les conditions de cette Politique de Confidentialité. Si vous n'êtes pas d'accord avec une partie de cette politique, veuillez ne pas utiliser l'Application.</p>
+            </section>
+            
+            <section>
+                <h2>1. Informations que nous collectons</h2>
+                
+                <h3>1.1 Données stockées localement</h3>
+                <p>L'Application est une application hors ligne où tout le traitement des données se fait localement sur votre appareil et ne sera pas téléchargé sur un serveur. Nous pouvons stocker les informations suivantes sur votre appareil :</p>
+                <ul>
+                    <li>Paramètres de l'Application : Y compris la taille de la grille, le nombre de couleurs, le mode de rendu, le mode d'affichage et d'autres paramètres de préférence de l'utilisateur</li>
+                    <li>Paramètres de substitution de couleur : Vos données personnalisées de substitution de couleur</li>
+                    <li>Données temporaires de traitement : Fichiers et données temporaires générés lors du traitement des images</li>
+                </ul>
+                
+                <h3>1.2 Utilisation des permissions</h3>
+                <p>Pour fournir une fonctionnalité complète, l'Application nécessite l'accès aux permissions système suivantes :</p>
+                <ul>
+                    <li>Accès à la bibliothèque photo : Utilisé pour télécharger des images depuis la bibliothèque photo et sauvegarder les travaux exportés dans la bibliothèque photo</li>
+                    <li>Accès au système de fichiers : Utilisé pour sauvegarder et gérer les fichiers de travaux exportés</li>
+                </ul>
+                
+                <h3>1.3 Informations que nous ne collectons pas</h3>
+                <ul>
+                    <li>Informations d'identité personnelle : Nous ne collectons pas votre nom, e-mail, numéro de téléphone ou autres informations d'identité personnelle</li>
+                    <li>Informations de localisation : Nous ne collectons pas vos informations de localisation géographique</li>
+                    <li>Informations sur l'appareil : Nous ne collectons pas le modèle de l'appareil, la version du système d'exploitation ou d'autres informations sur l'appareil</li>
+                    <li>Données de comportement d'utilisation : Nous ne collectons pas votre comportement d'utilisation, fréquence d'utilisation ou autres données</li>
+                </ul>
+            </section>
+            
+            <section>
+                <h2>2. Utilisation des données</h2>
+                <p>Les informations collectées et stockées par l'Application ne sont utilisées que pour les finalités suivantes :</p>
+                
+                <h3>2.1 Fournir la fonctionnalité de l'Application</h3>
+                <ul>
+                    <li>Sauvegarder vos paramètres et préférences de l'application pour assurer la cohérence lors de la prochaine utilisation</li>
+                    <li>Mettre en œuvre la fonctionnalité de téléchargement, de traitement et d'exportation d'images</li>
+                    <li>Prise en charge des fonctionnalités de gestion et de personnalisation des couleurs</li>
+                </ul>
+                
+                <h3>2.2 Améliorer l'expérience utilisateur</h3>
+                <ul>
+                    <li>Optimiser les performances de l'application en fonction de vos paramètres</li>
+                    <li>Fournir une expérience utilisateur personnalisée</li>
+                </ul>
+            </section>
+            
+            <section>
+                <h2>3. Stockage des données</h2>
+                
+                <h3>3.1 Stockage local</h3>
+                <p>Toutes les données sont stockées localement sur votre appareil et ne seront pas téléchargées sur un serveur ou un cloud. Cela signifie :</p>
+                <ul>
+                    <li>Vos données sont complètement sous votre contrôle</li>
+                    <li>Nous ne pouvons pas accéder à vos données</li>
+                    <li>Les données ne sont pas transmises sur le réseau, réduisant ainsi le risque de fuite de données</li>
+                </ul>
+                
+                <h3>3.2 Suppression des données</h3>
+                <p>Vous pouvez supprimer les données stockées localement en :</p>
+                <ul>
+                    <li>Réinitialisant les paramètres de l'application dans les paramètres de l'application</li>
+                    <li>Supprimant l'application pour effacer toutes les données stockées localement</li>
+                </ul>
+            </section>
+            
+            <section>
+                <h2>4. Services tiers</h2>
+                <p>L'Application n'utilise aucun service tiers, y compris :</p>
+                <ul>
+                    <li>N'utilise pas d'outils d'analyse tiers</li>
+                    <li>N'utilise pas de services publicitaires tiers</li>
+                    <li>N'utilise pas de services de stockage cloud tiers</li>
+                    <li>Ne partage pas vos données avec des tiers</li>
+                </ul>
+            </section>
+            
+            <section>
+                <h2>5. Sécurité des données</h2>
+                <ul>
+                    <li>Traitement local : Tous les traitements de données se font localement, évitant les risques de transmission réseau</li>
+                    <li>Permissions minimales : Ne demande que les permissions système nécessaires</li>
+                    <li>Isolation des données : Les données de l'application sont complètement isolées des données d'autres applications</li>
+                </ul>
+            </section>
+            
+            <section>
+                <h2>6. Confidentialité des enfants</h2>
+                <p>L'Application convient aux utilisateurs de tous âges. Nous :</p>
+                <ul>
+                    <li>Ne collectons pas intentionnellement d'informations personnelles auprès d'enfants de moins de 18 ans</li>
+                    <li>Ne collectons aucune information personnelle auprès d'enfants</li>
+                    <li>Ne fournissons aucun contenu qui pourrait être nocif pour les enfants</li>
+                </ul>
+            </section>
+            
+            <section>
+                <h2>7. Transfert de données transfrontières</h2>
+                <p>Étant donné que toutes les données de l'Application sont stockées localement sur votre appareil, aucun transfert de données transfrontières n'est impliqué.</p>
+            </section>
+            
+            <section>
+                <h2>8. Mises à jour de la Politique de Confidentialité</h2>
+                <p>Nous pouvons mettre à jour cette Politique de Confidentialité de temps en temps. Les politiques mises à jour seront annoncées dans l'Application. Pour les changements importants, nous vous informerons par le biais de notifications dans l'application.</p>
+                <p>La poursuite de l'utilisation de l'Application indique votre acceptation de la Politique de Confidentialité mise à jour.</p>
+            </section>
+            
+            <section>
+                <h2>9. Vos droits</h2>
+                <p>Conformément aux lois sur la protection des données applicables, vous avez les droits suivants :</p>
+                <ul>
+                    <li>Droit d'accès : Vous avez le droit de savoir comment nous traitons vos données</li>
+                    <li>Droit de suppression : Vous avez le droit de demander la suppression de vos données</li>
+                    <li>Droit de rectification : Vous avez le droit de corriger les données inexactes</li>
+                    <li>Droit d'opposition : Vous avez le droit de vous opposer à certaines activités de traitement des données</li>
+                </ul>
+                <p>Étant donné que les données de l'Application sont complètement stockées localement, vous pouvez exercer les droits ci-dessus en supprimant l'Application ou en réinitialisant les paramètres de l'application.</p>
+            </section>
+            
+            <section>
+                <h2>10. Nous contacter</h2>
+                <p>Si vous avez des questions, des commentaires ou des suggestions concernant cette Politique de Confidentialité, veuillez nous contacter par :</p>
+                <div class="contact-box">
+                    <p><strong>Email :</strong> <a href="mailto:19821902196@163.com">19821902196@163.com</a></p>
+                </div>
+            </section>
+        </div>
+        
+        <!-- 德语 -->
+        <div id="de-content" class="lang-content">
+            <section>
+                <h2>Einführung</h2>
+                <p>Willkommen bei BEAD STUDIO (im Folgenden als "die App" bezeichnet). Wir verstehen die Bedeutung der Privatsphäre und sind verpflichtet, Ihre personenbezogenen Daten zu schützen. Diese Datenschutzrichtlinie erläutert im Detail, wie die App Ihre personenbezogenen Daten sammelt, verwendet, speichert und schützt.</p>
+                <p>Die Nutzung der App bedeutet, dass Sie den Bedingungen dieser Datenschutzrichtlinie zustimmen. Wenn Sie mit einem Teil dieser Richtlinie nicht einverstanden sind, verwenden Sie die App bitte nicht.</p>
+            </section>
+            
+            <section>
+                <h2>1. Daten, die wir sammeln</h2>
+                
+                <h3>1.1 Lokal gespeicherte Daten</h3>
+                <p>Die App ist eine Offline-Anwendung, bei der alle Datenverarbeitung lokal auf Ihrem Gerät abgeschlossen wird und nicht auf einen Server hochgeladen wird. Wir können folgende Informationen auf Ihrem Gerät speichern:</p>
+                <ul>
+                    <li>App-Einstellungen: Dazu gehören Rastergröße, Farbanzahl, Rendering-Modus, Anzeigemodus und andere Benutzervoreinstellungen</li>
+                    <li>Farbüberschreibungs-Einstellungen: Ihre benutzerdefinierten Farbüberschreibungsdaten</li>
+                    <li>Temporäre Verarbeitungsdaten: Temporäre Dateien und Daten, die während der Bildverarbeitung generiert werden</li>
+                </ul>
+                
+                <h3>1.2 Berechtigkeitsnutzung</h3>
+                <p>Um vollständige Funktionalität zu bieten, benötigt die App Zugriff auf folgende Systemberechtigungen:</p>
+                <ul>
+                    <li>Zugriff auf die Fotobibliothek: Wird verwendet, um Bilder aus der Fotobibliothek hochzuladen und exportierte Arbeiten in die Fotobibliothek zu speichern</li>
+                    <li>Zugriff auf das Dateisystem: Wird verwendet, um exportierte Arbeitsdateien zu speichern und zu verwalten</li>
+                </ul>
+                
+                <h3>1.3 Daten, die wir nicht sammeln</h3>
+                <ul>
+                    <li>Persönliche Identifikationsinformationen: Wir sammeln nicht Ihren Namen, E-Mail, Telefonnummer oder andere persönliche Identifikationsinformationen</li>
+                    <li>Standortinformationen: Wir sammeln keine Informationen zu Ihrem geografischen Standort</li>
+                    <li>Geräteinformationen: Wir sammeln kein Gerätemodell, Betriebssystemversion oder andere Geräteinformationen</li>
+                    <li>Nutzungsverhaltensdaten: Wir sammeln nicht Ihr Nutzungsverhalten, Nutzungsfrequenz oder andere Daten</li>
+                </ul>
+            </section>
+            
+            <section>
+                <h2>2. Datenverwendung</h2>
+                <p>Die von der App gesammelten und gespeicherten Informationen werden nur zu folgenden Zwecken verwendet:</p>
+                
+                <h3>2.1 Bereitstellung der App-Funktionalität</h3>
+                <ul>
+                    <li>Speichern Ihrer App-Einstellungen und Vorlieben für Konsistenz beim nächsten Gebrauch</li>
+                    <li>Implementierung von Bildhochlade-, Verarbeitungs- und Exportfunktionen</li>
+                    <li>Unterstützung von Farbverwaltung und Anpassungsfunktionen</li>
+                </ul>
+                
+                <h3>2.2 Verbesserung der Benutzererfahrung</h3>
+                <ul>
+                    <li>Optimierung der App-Leistung basierend auf Ihren Einstellungen</li>
+                    <li>Bereitstellung einer personalisierten Benutzererfahrung</li>
+                </ul>
+            </section>
+            
+            <section>
+                <h2>3. Datenspeicherung</h2>
+                
+                <h3>3.1 Lokale Speicherung</h3>
+                <p>Alle Daten werden lokal auf Ihrem Gerät gespeichert und nicht auf einen Server oder Cloud hochgeladen. Das bedeutet:</p>
+                <ul>
+                    <li>Ihre Daten sind vollständig unter Ihrer Kontrolle</li>
+                    <li>Wir können nicht auf Ihre Daten zugreifen</li>
+                    <li>Daten werden nicht über das Netzwerk übertragen, was das Risiko einer Datenverletzung reduziert</li>
+                </ul>
+                
+                <h3>3.2 Datenlöschung</h3>
+                <p>Sie können lokal gespeicherte Daten löschen, indem Sie:</p>
+                <ul>
+                    <li>Die App-Einstellungen in den App-Einstellungen zurücksetzen</li>
+                    <li>Die App löschen, um alle lokal gespeicherten Daten zu löschen</li>
+                </ul>
+            </section>
+            
+            <section>
+                <h2>4. Drittanbieterdienste</h2>
+                <p>Die App verwendet keine Drittanbieterdienste, einschließlich:</p>
+                <ul>
+                    <li>Verwendet keine Drittanalysetools</li>
+                    <li>Verwendet keine Drittwerbungsdienste</li>
+                    <li>Verwendet keine Drittcloudspeicherdienste</li>
+                    <li>Teilt Ihre Daten nicht mit Dritten</li>
+                </ul>
+            </section>
+            
+            <section>
+                <h2>5. Datensicherheit</h2>
+                <ul>
+                    <li>Lokale Verarbeitung: Alle Datenverarbeitung erfolgt lokal, wodurch Netzwerkübertragungsrisiken vermieden werden</li>
+                    <li>Minimale Berechtigungen: Nur erforderliche Systemberechtigungen werden angefordert</li>
+                    <li>Datenisolation: App-Daten sind vollständig von Daten anderer Apps isoliert</li>
+                </ul>
+            </section>
+            
+            <section>
+                <h2>6. Kinderprivatsphäre</h2>
+                <p>Die App eignet sich für Benutzer jeden Alters. Wir:</p>
+                <ul>
+                    <li>Sammeln nicht absichtlich personenbezogene Daten von Kindern unter 18 Jahren</li>
+                    <li>Sammeln keine personenbezogenen Daten von Kindern</li>
+                    <li>Bieten keinen Inhalt an, der für Kinder schädlich sein könnte</li>
+                </ul>
+            </section>
+            
+            <section>
+                <h2>7. Datenübertragung über Grenzen hinweg</h2>
+                <p>Da alle Daten der App lokal auf Ihrem Gerät gespeichert werden, erfolgt keine grenzüberschreitende Datenübertragung.</p>
+            </section>
+            
+            <section>
+                <h2>8. Aktualisierungen der Datenschutzrichtlinie</h2>
+                <p>Wir können diese Datenschutzrichtlinie von Zeit zu Zeit aktualisieren. Aktualisierte Richtlinien werden in der App bekannt gegeben. Bei wesentlichen Änderungen benachrichtigen wir Sie über In-App-Benachrichtigungen.</p>
+                <p>Die fortgesetzte Nutzung der App zeigt Ihre Akzeptanz der aktualisierten Datenschutzrichtlinie an.</p>
+            </section>
+            
+            <section>
+                <h2>9. Ihre Rechte</h2>
+                <p>Gemäß den geltenden Datenschutzgesetzen haben Sie folgende Rechte:</p>
+                <ul>
+                    <li>Zugriffsrecht: Sie haben das Recht zu erfahren, wie wir Ihre Daten verarbeiten</li>
+                    <li>Löschungsrecht: Sie haben das Recht, die Löschung Ihrer Daten zu beantragen</li>
+                    <li>Korrekturrecht: Sie haben das Recht, ungenaue Daten zu korrigieren</li>
+                    <li>Widerspruchsrecht: Sie haben das Recht, sich gegen bestimmte Datenverarbeitungsaktivitäten zu widersetzen</li>
+                </ul>
+                <p>Da die Daten der App vollständig lokal gespeichert werden, können Sie die oben genannten Rechte ausüben, indem Sie die App löschen oder die App-Einstellungen zurücksetzen.</p>
+            </section>
+            
+            <section>
+                <h2>10. Kontaktieren Sie uns</h2>
+                <p>Wenn Sie Fragen, Kommentare oder Vorschläge zu dieser Datenschutzrichtlinie haben, kontaktieren Sie uns über:</p>
+                <div class="contact-box">
+                    <p><strong>E-Mail:</strong> <a href="mailto:19821902196@163.com">19821902196@163.com</a></p>
+                </div>
+            </section>
+        </div>
+        
+        <!-- 日语 -->
+        <div id="ja-content" class="lang-content">
+            <section>
+                <h2>はじめに</h2>
+                <p>BEAD STUDIOアプリ（以下「本アプリ」といいます）をご利用いただきありがとうございます。私たちはプライバシーの重要性を理解しており、お客様の個人情報を保護することに取り組んでいます。このプライバシーポリシーでは、本アプリがお客様の個人情報をどのように収集、使用、保存、保護するかについて詳しく説明しています。</p>
+                <p>本アプリを使用することにより、このプライバシーポリシーの条項に同意したものとみなされます。このポリシーのいずれかの部分に同意されない場合は、本アプリを使用しないでください。</p>
+            </section>
+            
+            <section>
+                <h2>1. 収集する情報</h2>
+                
+                <h3>1.1 ローカルに保存されるデータ</h3>
+                <p>本アプリはオフラインアプリケーションであり、すべてのデータ処理はお客様のデバイス上でローカルに完了し、いかなるサーバーにもアップロードされません。お客様のデバイスに以下の情報を保存する場合があります：</p>
+                <ul>
+                    <li>アプリ設定：グリッドサイズ、色数、レンダリングモード、表示モードなどのユーザー設定</li>
+                    <li>色オーバーライド設定：カスタムの色オーバーライドデータ</li>
+                    <li>処理時の一時データ：画像処理中に生成される一時ファイルとデータ</li>
+                </ul>
+                
+                <h3>1.2 権限の使用</h3>
+                <p>完全な機能を提供するために、本アプリは以下のシステム権限へのアクセスを必要とします：</p>
+                <ul>
+                    <li>フォトライブラリアクセス：フォトライブラリからの画像アップロードと、エクスポートした作品のフォトライブラリへの保存に使用</li>
+                    <li>ファイルシステムアクセス：エクスポートした作品ファイルの保存と管理に使用</li>
+                </ul>
+                
+                <h3>1.3 収集しない情報</h3>
+                <ul>
+                    <li>個人識別情報：お客様の名前、メールアドレス、電話番号などの個人識別情報を収集しません</li>
+                    <li>位置情報：お客様の地理位置情報を収集しません</li>
+                    <li>デバイス情報：デバイスモデル、オペレーティングシステムバージョンなどのデバイス情報を収集しません</li>
+                    <li>使用行動データ：お客様の使用行動、使用頻度などのデータを収集しません</li>
+                </ul>
+            </section>
+            
+            <section>
+                <h2>2. データの使用</h2>
+                <p>本アプリによって収集および保存される情報は、以下の目的にのみ使用されます：</p>
+                
+                <h3>2.1 アプリ機能の提供</h3>
+                <ul>
+                    <li>次回使用時の一貫性を保つために、お客様のアプリ設定と環境設定を保存</li>
+                    <li>画像のアップロード、処理、エクスポート機能の実装</li>
+                    <li>色管理とカスタマイズ機能のサポート</li>
+                </ul>
+                
+                <h3>2.2 ユーザーエクスペリエンスの向上</h3>
+                <ul>
+                    <li>お客様の設定に基づいてアプリのパフォーマンスを最適化</li>
+                    <li>パーソナライズされたユーザーエクスペリエンスの提供</li>
+                </ul>
+            </section>
+            
+            <section>
+                <h2>3. データの保存</h2>
+                
+                <h3>3.1 ローカル保存</h3>
+                <p>すべてのデータはお客様のデバイスにローカルに保存され、いかなるサーバーやクラウドにもアップロードされません。これは以下を意味します：</p>
+                <ul>
+                    <li>お客様のデータは完全にお客様の管理下にあります</li>
+                    <li>私たちはお客様のデータにアクセスすることができません</li>
+                    <li>データはネットワークを介して送信されないため、データ漏洩のリスクが低減されます</li>
+                </ul>
+                
+                <h3>3.2 データの削除</h3>
+                <p>以下の方法でローカルに保存されたデータを削除することができます：</p>
+                <ul>
+                    <li>アプリ設定でアプリ設定をリセットする</li>
+                    <li>アプリを削除してすべてのローカル保存データを消去する</li>
+                </ul>
+            </section>
+            
+            <section>
+                <h2>4. 第三者サービス</h2>
+                <p>本アプリは、以下を含むいかなる第三者サービスも使用しません：</p>
+                <ul>
+                    <li>第三者分析ツールを使用しません</li>
+                    <li>第三者広告サービスを使用しません</li>
+                    <li>第三者クラウドストレージサービスを使用しません</li>
+                    <li>お客様のデータを第三者と共有しません</li>
+                </ul>
+            </section>
+            
+            <section>
+                <h2>5. データセキュリティ</h2>
+                <ul>
+                    <li>ローカル処理：すべてのデータ処理はローカルで完了し、ネットワーク送信のリスクを回避</li>
+                    <li>最小限の権限：必要なシステム権限のみを要求</li>
+                    <li>データ分離：アプリデータは他のアプリのデータから完全に分離</li>
+                </ul>
+            </section>
+            
+            <section>
+                <h2>6. 児童のプライバシー</h2>
+                <p>本アプリはあらゆる年齢のユーザーに適しています。私たちは：</p>
+                <ul>
+                    <li>18歳未満の児童の個人情報を意図的に収集しません</li>
+                    <li>児童の個人情報を一切収集しません</li>
+                    <li>児童に有害な可能性のあるコンテンツを提供しません</li>
+                </ul>
+            </section>
+            
+            <section>
+                <h2>7. データの国境を越えた移転</h2>
+                <p>本アプリのすべてのデータはお客様のデバイスにローカルに保存されるため、データの国境を越えた移転は関与しません。</p>
+            </section>
+            
+            <section>
+                <h2>8. プライバシーポリシーの更新</h2>
+                <p>私たちは随時このプライバシーポリシーを更新することがあります。更新されたポリシーはアプリ内で公表されます。重大な変更の場合、アプリ内通知を通じてお知らせします。</p>
+                <p>本アプリの使用を継続することで、更新されたプライバシーポリシーに同意したものとみなされます。</p>
+            </section>
+            
+            <section>
+                <h2>9. お客様の権利</h2>
+                <p>適用されるデータ保護法に基づき、お客様は以下の権利を有します：</p>
+                <ul>
+                    <li>アクセス権：私たちがお客様のデータをどのように処理しているかを知る権利</li>
+                    <li>削除権：お客様のデータの削除を要求する権利</li>
+                    <li>訂正権：不正確なデータを訂正する権利</li>
+                    <li>異議申立権：特定のデータ処理活動に異議を唱える権利</li>
+                </ul>
+                <p>本アプリのデータは完全にローカルに保存されているため、アプリを削除するかアプリ設定をリセットすることで上記の権利を行使することができます。</p>
+            </section>
+            
+            <section>
+                <h2>10. お問い合わせ</h2>
+                <p>このプライバシーポリシーに関する質問、コメント、または提案がある場合は、以下の方法でお問い合わせください：</p>
+                <div class="contact-box">
+                    <p><strong>メール：</strong> <a href="mailto:19821902196@163.com">19821902196@163.com</a></p>
+                </div>
+            </section>
+        </div>
+        
+        <!-- 韩语 -->
+        <div id="ko-content" class="lang-content">
+            <section>
+                <h2>소개</h2>
+                <p>BEAD STUDIO 앱（이하 "앱"이라고 함）을 사용해 주셔서 감사합니다. 우리는 개인정보 보호의 중요성을 이해하고 있으며, 귀하의 개인정보를 보호하기 위해 노력하고 있습니다. 이 개인정보 보호 정책은 앱이 귀하의 개인정보를 어떻게 수집, 사용, 저장 및 보호하는지에 대해 자세히 설명합니다.</p>
+                <p>앱을 사용함으로써 귀하는 본 개인정보 보호 정책의 조건에 동의하는 것으로 간주됩니다. 이 정책의 어떤 부분에 동의하지 않는 경우 앱을 사용하지 마십시오.</p>
+            </section>
+            
+            <section>
+                <h2>1. 수집하는 정보</h2>
+                
+                <h3>1.1 로컬 저장 데이터</h3>
+                <p>앱은 오프라인 애플리케이션으로, 모든 데이터 처리는 귀하의 기기에서 로컬로 완료되며 어떤 서버에도 업로드되지 않습니다. 우리는 귀하의 기기에 다음과 같은 정보를 저장할 수 있습니다:</p>
+                <ul>
+                    <li>앱 설정: 그리드 크기、색상 수、렌더링 모드、표시 모드 등의 사용자 기본 설정</li>
+                    <li>색상 재정의 설정: 사용자 정의 색상 재정의 데이터</li>
+                    <li>처리 중 임시 데이터: 이미지 처리 중 생성되는 임시 파일 및 데이터</li>
+                </ul>
+                
+                <h3>1.2 권한 사용</h3>
+                <p>완전한 기능을 제공하기 위해 앱은 다음과 같은 시스템 권한에 대한 액세스가 필요합니다:</p>
+                <ul>
+                    <li>사진 라이브러리 액세스: 사진 라이브러리에서 이미지를 업로드하고 내보낸 작품을 사진 라이브러리에 저장하는 데 사용</li>
+                    <li>파일 시스템 액세스: 내보낸 작품 파일을 저장하고 관리하는 데 사용</li>
+                </ul>
+                
+                <h3>1.3 수집하지 않는 정보</h3>
+                <ul>
+                    <li>개인 식별 정보: 귀하의 이름、이메일、전화번호 등의 개인 식별 정보를 수집하지 않습니다</li>
+                    <li>위치 정보: 귀하의 지리적 위치 정보를 수집하지 않습니다</li>
+                    <li>기기 정보: 기기 모델、운영 체제 버전 등의 기기 정보를 수집하지 않습니다</li>
+                    <li>사용 행동 데이터: 귀하의 사용 행동、사용 빈도 등의 데이터를 수집하지 않습니다</li>
+                </ul>
+            </section>
+            
+            <section>
+                <h2>2. 데이터 사용</h2>
+                <p>앱이 수집하고 저장하는 정보는 다음과 같은 목적으로만 사용됩니다:</p>
+                
+                <h3>2.1 앱 기능 제공</h3>
+                <ul>
+                    <li>다음 사용 시 일관성을 유지하기 위해 귀하의 앱 설정 및 기본 설정 저장</li>
+                    <li>이미지 업로드、처리 및 내보내기 기능 구현</li>
+                    <li>색상 관리 및 사용자 정의 기능 지원</li>
+                </ul>
+                
+                <h3>2.2 사용자 경험 개선</h3>
+                <ul>
+                    <li>귀하의 설정에 따라 앱 성능 최적화</li>
+                    <li>개인화된 사용자 경험 제공</li>
+                </ul>
+            </section>
+            
+            <section>
+                <h2>3. 데이터 저장</h2>
+                
+                <h3>3.1 로컬 저장</h3>
+                <p>모든 데이터는 귀하의 기기에 로컬로 저장되며 어떤 서버나 클라우드에도 업로드되지 않습니다. 이는 다음을 의미합니다:</p>
+                <ul>
+                    <li>귀하의 데이터는 완전히 귀하의 제어하에 있습니다</li>
+                    <li>우리는 귀하의 데이터에 액세스할 수 없습니다</li>
+                    <li>데이터가 네트워크를 통해 전송되지 않아 데이터 유출 위험이 감소합니다</li>
+                </ul>
+                
+                <h3>3.2 데이터 삭제</h3>
+                <p>다음과 같은 방법으로 로컬 저장 데이터를 삭제할 수 있습니다:</p>
+                <ul>
+                    <li>앱 설정에서 앱 설정 재설정</li>
+                    <li>앱을 삭제하여 로컬 저장 데이터를 모두 지웁니다</li>
+                </ul>
+            </section>
+            
+            <section>
+                <h2>4. 제3자 서비스</h2>
+                <p>앱은 다음을 포함하여 어떤 제3자 서비스도 사용하지 않습니다:</p>
+                <ul>
+                    <li>제3자 분석 도구를 사용하지 않습니다</li>
+                    <li>제3자 광고 서비스를 사용하지 않습니다</li>
+                    <li>제3자 클라우드 저장 서비스를 사용하지 않습니다</li>
+                    <li>귀하의 데이터를 제3자와 공유하지 않습니다</li>
+                </ul>
+            </section>
+            
+            <section>
+                <h2>5. 데이터 보안</h2>
+                <ul>
+                    <li>로컬 처리: 모든 데이터 처리는 로컬에서 완료되어 네트워크 전송 위험을 피합니다</li>
+                    <li>최소 권한: 필요한 시스템 권한만 요청합니다</li>
+                    <li>데이터 격리: 앱 데이터는 다른 앱 데이터와 완전히 격리됩니다</li>
+                </ul>
+            </section>
+            
+            <section>
+                <h2>6. 어린이 개인정보 보호</h2>
+                <p>앱은 모든 연령의 사용자에게 적합합니다. 우리는:</p>
+                <ul>
+                    <li>18세 미만 어린이의 개인정보를 의도적으로 수집하지 않습니다</li>
+                    <li>어린이의 개인정보를 전혀 수집하지 않습니다</li>
+                    <li>어린이에게 해가 될 수 있는 콘텐츠를 제공하지 않습니다</li>
+                </ul>
+            </section>
+            
+            <section>
+                <h2>7. 국경을 넘는 데이터 전송</h2>
+                <p>앱의 모든 데이터는 귀하의 기기에 로컬로 저장되므로 국경을 넘는 데이터 전송이 관련되지 않습니다.</p>
+            </section>
+            
+            <section>
+                <h2>8. 개인정보 보호 정책 업데이트</h2>
+                <p>우리는 이 개인정보 보호 정책을 때때로 업데이트할 수 있습니다. 업데이트된 정책은 앱 내에서 공지됩니다. 중요한 변경사항의 경우, 앱 내 알림을 통해 알려드리겠습니다.</p>
+                <p>앱 사용을 계속하면 업데이트된 개인정보 보호 정책에 동의하는 것으로 간주됩니다.</p>
+            </section>
+            
+            <section>
+                <h2>9. 귀하의 권리</h2>
+                <p>적용되는 데이터 보호 법률에 따라 다음과 같은 권리를 가지고 있습니다:</p>
+                <ul>
+                    <li>접근 권리: 귀하의 데이터를 어떻게 처리하는지 알 권리</li>
+                    <li>삭제 권리: 귀하의 데이터 삭제를 요청할 권리</li>
+                    <li>수정 권리: 부정확한 데이터를 수정할 권리</li>
+                    <li>거부 권리: 특정 데이터 처리 활동에 반대할 권리</li>
+                </ul>
+                <p>앱의 데이터가 완전히 로컬에 저장되어 있으므로, 앱을 삭제하거나 앱 설정을 재설정하여 위 권리를 행사할 수 있습니다.</p>
+            </section>
+            
+            <section>
+                <h2>10. 문의하기</h2>
+                <p>이 개인정보 보호 정책에 대한 질문, 의견 또는 제안이 있는 경우 다음을 통해 문의하십시오:</p>
+                <div class="contact-box">
+                    <p><strong>이메일:</strong> <a href="mailto:19821902196@163.com">19821902196@163.com</a></p>
+                </div>
+            </section>
+        </div>
+        
+        <footer>
+            <p><strong>개인정보 보호 정책 버전: 1.0</strong></p>
+            <p>마지막 업데이트 날짜: 2026년 3월 29일</p>
+        </footer>
     </div>
-
+    
     <script>
         function switchLanguage(lang) {
+            // Hide all language contents
+            document.querySelectorAll('.lang-content').forEach(content => {
+                content.classList.remove('active');
+            });
+            
             // Remove active class from all buttons
             document.querySelectorAll('.lang-btn').forEach(btn => {
                 btn.classList.remove('active');
             });
             
-            // Add active class to clicked button
-            event.target.classList.add('active');
-            
-            // Hide all language content
-            document.querySelectorAll('.lang-content').forEach(content => {
-                content.classList.remove('active');
-            });
-            
             // Show selected language content
             document.getElementById(lang + '-content').classList.add('active');
+            
+            // Add active class to selected button
+            event.target.classList.add('active');
         }
     </script>
 </body>
